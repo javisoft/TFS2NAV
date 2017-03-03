@@ -4,7 +4,7 @@ WCF Service for connecting TFS to NAV
 # Purpose
 
 You can use this service as Service Hook in TFS (on prem or Teams Services) which will take the Json and send it into NAV Webservice as text.
-Than you can do what you want inside NAV with the data.
+Then you can do what you want inside NAV with the data.
 
 # Installation
 
@@ -16,7 +16,7 @@ In web.config specify the parameters in section applicationSettings, mainly WSUs
 
 # TFS Setup
 
-in TFS create new Service Hook of type Web Hook to address like http://server/TFS2NAV/TFS2NAVListener.svc/ToNAV and select which info you want to send to
+In TFS create new Service Hook of type Web Hook to address like http://server/TFS2NAV/TFS2NAVListener.svc/ToNAV and select which info you want to send to
 this hook. The Json with the info will ends in your NAV.
 
 # NAV Web Service
